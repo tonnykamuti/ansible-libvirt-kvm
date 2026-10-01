@@ -5,3 +5,8 @@
     - name: List vms
       community.libvirt.virt: 
         command: list_vms
+      register: vms
+
+    - name: Print Vms
+      debug: 
+        msg: "{{ vms }}"
