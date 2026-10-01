@@ -1,0 +1,7 @@
+---
+- name: configure kvm hosts 
+  hosts: all
+  tasks:
+    - name: List vms
+      community.libvirt.virt: 
+        command: list_vms
