@@ -7,13 +7,10 @@ tonny@xor:~/Documents/projects/ansible/libvirtsetup$ ansible-doc community.libvi
 ```
 
 # No terminal output at first
+
 Just using list_vms command is not enough.
 The output is not sent to the terminal.
-<<<<<<< HEAD
-You can view the playbook state for this step at the 
-=======
 You can view the playbook state for this step here [v0.01.01_listing_vms_no_terminal_output](https://github.com/tonnykamuti/ansible-libvirt-kvm/releases/tag/v0.01.01_listing_vms_no_terminal_output)
->>>>>>> 6d1a9fe (List all virtual machines)
 
 ```bash
 tonny@xor:~/Documents/projects/ansible/libvirtsetup$ ansible-playbook -i ./hosts playbook.yaml
@@ -40,11 +37,7 @@ There is really no output at first unless we capture output from list_vms in a v
 # Raw json output
 
 Adding the register variable and sending the json output to the terminal.
-<<<<<<< HEAD
-See this here 
-=======
 See this here [v0.01.02_listing_vms_raw_json_terminal_output](https://github.com/tonnykamuti/ansible-libvirt-kvm/releases/tag/v0.01.02_listing_vms_raw_json_terminal_output) 
->>>>>>> 6d1a9fe (List all virtual machines)
 
 <details>
 
